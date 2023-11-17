@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <q:quakeml xmlns="http://quakeml.org/xmlns/bed/1.2" xmlns:q="http://quakeml.org/xmlns/quakeml/1.2" xmlns:ns0="http://webservices.ingv.it/fdsnws/event/1">
-  <eventParameters publicID="smi:local/aa1ab3f2-77cb-4a09-bc7d-7bf0d9966d89">
+  <eventParameters publicID="smi:local/a071089a-fc9c-425f-980b-831d8237321b">
     <event publicID="smi:webservices.ingv.it/fdsnws/event/1/query?eventId=36365741">
       <preferredOriginID>smi:webservices.ingv.it/fdsnws/event/1/query?originId=121687631</preferredOriginID>
       <preferredMagnitudeID>smi:webservices.ingv.it/fdsnws/event/1/query?magnitudeId=130985731</preferredMagnitudeID>
