@@ -1,0 +1,26 @@
+-CAT_FLEGREI:
+
+stime=UTCDateTime('2023-09-27T00:00:00')
+etime=UTCDateTime('2023-10-03T00:00:00')
+
+lat=40.8478     #pozzuoli
+long=14.0918
+
+rad_events=0.3  # ~30km
+
+-INVENTORY_F:
+
+stime=UTCDateTime('2023-09-27T00:00:00')
+etime=UTCDateTime('2023-10-03T00:00:00')
+
+lat=40.8478     #pozzuoli
+long=14.0918
+
+rad_stations=0.1 # ~ 10km
+
+-WAVE_F:
+
+event_start=catf[0].origins[0].time
+event_end=catf[0].origins[0].time +30
+
+network='IV',station=station.code,location='*', channel='EH?,HH?'
