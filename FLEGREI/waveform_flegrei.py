@@ -17,8 +17,11 @@ import pickle
 
 
 # %% read catalogues
+
+#min mag = 0.3
 catINGV=read_events('flegrei_2014_2023_INGV/catalogue_flegrei.xml')
 
+#min mag= -1.61
 catOV=read_events('flegrei_2014_2023_GOSSIP/catalogue_flegrei.xml')
 
 client=Client('INGV')
